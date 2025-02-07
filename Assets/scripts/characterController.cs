@@ -30,6 +30,8 @@ public class characterScript : MonoBehaviour
             playerVelocity.y = 0f;
         }
 
+        //test
+
         Vector2 moveValue = moveAction.ReadValue<Vector2>();
         Vector3 cameraForward = Camera.main.transform.forward;
         cameraForward.y = 0;
